@@ -1,9 +1,8 @@
 var audioboy = function()
 {
   var self = this;
-  var twopi = 3.14159265*2.0;
   self.buff_s = 0.05;
-  var buff_channels = 2;
+  var buff_channels = 1;
   self.filled_playhead_s = 0;
   self.filled_playhead_gap_s = 0;
 
